@@ -34,5 +34,5 @@ Even if you refresh, your cart stays thanks to LocalStorage.
 Try It Out
 
 
-Check out the live app here: [Live Demo](https://shopping-cart-five-xi-78.vercel.app/product-list)
+Check out the live app here: [Live Demo](https://shopping-cart-five-xi-78.vercel.app/)
 
