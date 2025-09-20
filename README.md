@@ -1,6 +1,6 @@
 My React Shopping Cart App 🛒
 
-Hey there! Welcome to my shopping cart project. This is a small e-commerce app built with React, Tailwind CSS, and Context API. You can browse products, see details, add them to your cart, and even adjust quantities — just like a real online store.
+Hey there! Welcome to my shopping cart project. This is a small e-commerce app built with React, Tailwind CSS, and Context API. You can browse products, view details, add them to your cart, and adjust quantities — just like a real online store.
 
 How It Works
 
@@ -8,49 +8,30 @@ Imagine you’re visiting your favorite online shop:
 
 Product List
 
-You’ll see all the products nicely laid out in a grid with their images, names, and prices.
-
-Click “View Details” and you’ll get a closer look at a product.
+You’ll see all the products neatly displayed in a grid with images, names, and prices.
+Click “View Details” to dive deeper into any product.
 
 Product Details
 
-Here you can see more images, the title, price, and description.
-
-Hit the 🛒 Add to Cart button and the item gets added to your cart.
-
+Here you can check out more images, the title, price, and description.
+Hit the 🛒 Add to Cart button, and the item is added to your cart.
 You can increase the quantity with +, decrease it with -, or remove it completely.
-
 The total updates automatically, giving you a real checkout feel.
 
 Cart Page
 
-All your selected items are displayed with thumbnails, quantities, and total prices.
-
-You can remove items, adjust quantities, or continue shopping.
-
-The order summary at the side keeps track of your total.
+All your selected items appear with thumbnails, quantities, and total prices.
+You can modify your cart or continue shopping smoothly.
+A live order summary on the side keeps track of your total.
 
 How Data Works
 
-Products come from a dummy API: https://dummyjson.com/products.
-
-React Context keeps track of your cart globally, so it’s available across pages.
-
+Products are fetched from a dummy API: https://dummyjson.com/products
+.
+React Context handles your cart globally, so it’s available across all pages.
 Even if you refresh, your cart stays thanks to LocalStorage.
 
-Features
+Try It Out
 
-Responsive design for desktop and mobile
-
-Smooth animations and hover effects
-
-Add, remove, and update cart items easily
-
-Live order summary calculation
-
-Client-side routing with React Router
-
-Check It Out
-
-You can try the live app here:
-Live Demo
+Check out the live app here:
+https://shopping-cart-five-xi-78.vercel.app/product-list
